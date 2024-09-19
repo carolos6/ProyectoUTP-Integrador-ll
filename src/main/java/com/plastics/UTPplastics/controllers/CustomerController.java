@@ -2,7 +2,7 @@ package com.plastics.UTPplastics.controllers;
 
 
 import com.plastics.UTPplastics.entities.Customer;
-import com.plastics.UTPplastics.services.CustomerService;
+import com.plastics.UTPplastics.services.CustomerServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -13,7 +13,7 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 public class    CustomerController {
     @Autowired
-    private CustomerService service;
+    private CustomerServiceImp service;
 
 
     @GetMapping("/customers")//Traer todos los clientes

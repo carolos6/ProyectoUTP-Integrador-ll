@@ -25,6 +25,7 @@ public class Customer {
     private String address;
     private String cellular_phone;
     private String dni;
+    //@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
     @Basic(optional = false)
     @NotNull

@@ -1,8 +1,6 @@
 package com.plastics.UTPplastics.controllers;
 
-import com.plastics.UTPplastics.entities.Customer;
 import com.plastics.UTPplastics.entities.Product;
-import com.plastics.UTPplastics.services.CustomerService;
 import com.plastics.UTPplastics.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
